@@ -1,26 +1,36 @@
-# Placeholder website for anaisurl.com
+# Mohamed Anwar — Portfolio
 
-This repository contains a simple static placeholder page designed for GitHub Pages.
+Personal portfolio website for Mohamed Anwar, a Computer Science & AI student building software, AI tools, and open-source projects.
 
-## Files
+## Current branch
 
-- `index.html`: main placeholder content
-- `styles.css`: visual style and responsive layout
-- `CNAME`: custom domain for GitHub Pages (`anaisurl.com`)
+The redesign is being developed on `workfolio-portfolio` so the original `main` branch and fork history stay untouched until the changes are reviewed.
 
-## Publish on GitHub Pages
+## Design direction
 
-1. Push this repository to GitHub.
-2. Open repository settings on GitHub.
-3. Go to Pages.
-4. Under Build and deployment:
-   - Source: Deploy from a branch
-   - Branch: `main` (or your default branch)
-   - Folder: `/ (root)`
-5. Save and wait for deployment.
+The site uses a custom Bootstrap 5 implementation inspired by the visual direction of BootstrapMade's Workfolio template rather than redistributing the original template files.
 
-GitHub Pages will issue HTTPS certificates automatically once DNS is configured correctly.
+Workfolio source: https://bootstrapmade.com/workfolio-bootstrap-portfolio-template/
 
-## Update social links
+BootstrapMade license: https://bootstrapmade.com/license/
 
-Edit the link URLs in `index.html` in the "Find me online" section.
+The footer keeps BootstrapMade attribution.
+
+## Stack
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- Bootstrap Icons
+- Vanilla JavaScript
+
+## Featured projects
+
+- CatalogMesh — https://github.com/mhmdwaelanwr/CatalogMesh
+- PadScope — https://github.com/mhmdwaelanwr/PadScope
+- PrismSpace — https://github.com/mhmdwaelanwr/PrismSpace
+- Elitedom Commerce Platform — https://github.com/mhmdwaelanwr/elitedom-commerce-platform
+
+## Publishing
+
+This repository is a fork of `AnaisUrlichs/website-and-blog`. The inherited `CNAME` pointed to the upstream owner's domain (`anaisurl.com`), so it is intentionally removed from the portfolio branch. Add a new `CNAME` only when a domain owned by Mohamed is ready to be connected.
