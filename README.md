@@ -1,36 +1,23 @@
 # Mohamed Anwar — Software Engineering Portfolio
 
-Personal portfolio for Mohamed Anwar, a third-year Computer Science student at Arab Open University focused on developer tools, systems, backend engineering, applied AI, and practical product development.
+Personal engineering portfolio focused on **developer tools, systems, backend engineering, and applied AI**.
 
-## Profile highlights
+**Live site:** https://mohamed-anwar-portfolio-mhmdwaelanwrs-projects.vercel.app
 
-- Software Engineer | Developer Tools, Systems & Applied AI
-- Front-End Development Trainee at Digital Egypt Pioneers Initiative (DEPI)
-- Founder & Owner of Elitedom
-- Independent Software Developer
-- Huawei ICT Competition 2025–2026 Silver Medalist — Computing Track
-- B.Sc. Computer Science at Arab Open University / The Open University dual-degree programme
-- Expected graduation: 2028
+## Current state
 
-## Status
+The portfolio is published from `main` and deployed to Vercel. The original Workfolio-inspired iteration was followed by a second engineering-focused redesign that tightened the information hierarchy for technical applications and recruiter review.
 
-The Workfolio-inspired redesign was developed on `workfolio-portfolio`, reviewed through PR #1, and merged into `main`. The repository remains a fork of `AnaisUrlichs/website-and-blog`, preserving its original history.
+The repository remains a fork of `AnaisUrlichs/website-and-blog`, preserving the original GitHub fork relationship and history.
 
-A production deployment has been initiated on Vercel under the project name `mohamed-anwar-portfolio`.
+## What the site emphasizes
 
-## Content source
-
-Portfolio content is personalized from Mohamed's 2026 professional CV and personal presentation, including experience, skills, project descriptions, academic background, engineering direction, and long-term goals. The public site intentionally exposes professional email/social links but does not publish the phone numbers contained in the CV.
-
-## Design direction
-
-The site uses a custom Bootstrap 5 implementation inspired by the visual direction of BootstrapMade's Workfolio template rather than redistributing the original template files.
-
-Workfolio source: https://bootstrapmade.com/workfolio-bootstrap-portfolio-template/
-
-BootstrapMade license: https://bootstrapmade.com/license/
-
-The footer keeps BootstrapMade attribution.
+- Clear software-engineering positioning instead of a generic template portfolio.
+- CatalogMesh as the primary applied-AI / automation case study.
+- PadScope, PrismSpace, Linux systems investigation, Nautilus Code New File, and Elitedom Commerce Platform as selected engineering work.
+- Evidence-first debugging, human review around AI, operational completeness, and root-cause investigation.
+- Easy access to résumé, GitHub, LinkedIn, and email without publishing private phone numbers.
+- Responsive mobile layout, accessible navigation, social metadata, structured person data, and a custom favicon.
 
 ## Stack
 
@@ -39,16 +26,26 @@ The footer keeps BootstrapMade attribution.
 - Bootstrap 5
 - Bootstrap Icons
 - Vanilla JavaScript
+- Vercel static deployment
 
-## Featured projects
+## Selected projects
 
-- AI Product Photo Sorter / CatalogMesh — https://github.com/mhmdwaelanwr/CatalogMesh
-- PadScope — https://github.com/mhmdwaelanwr/PadScope
-- Elitedom Commerce Platform — https://github.com/mhmdwaelanwr/elitedom-commerce-platform
-- Nautilus Code New File — https://github.com/mhmdwaelanwr/nautilus-code-new-file
-- ASUS FX507VV Linux Suspend/Resume Investigation — https://github.com/mhmdwaelanwr/asus-fx507vv-linux-suspend-investigation
-- PrismSpace — Android Virtualization Research — https://github.com/mhmdwaelanwr/PrismSpace
+- [CatalogMesh](https://github.com/mhmdwaelanwr/CatalogMesh)
+- [PadScope](https://github.com/mhmdwaelanwr/PadScope)
+- [Elitedom Commerce Platform](https://github.com/mhmdwaelanwr/elitedom-commerce-platform)
+- [Nautilus Code New File](https://github.com/mhmdwaelanwr/nautilus-code-new-file)
+- [ASUS FX507VV Linux Suspend/Resume Investigation](https://github.com/mhmdwaelanwr/asus-fx507vv-linux-suspend-investigation)
+- [PrismSpace](https://github.com/mhmdwaelanwr/PrismSpace)
 
-## Publishing / fork note
+## Design / license note
 
-The inherited `CNAME` pointed to the upstream owner's domain (`anaisurl.com`), so it was intentionally removed before publishing the portfolio. Add a new `CNAME` only when a domain owned by Mohamed is ready to be connected.
+The implementation is custom and takes visual direction from BootstrapMade's Workfolio template rather than redistributing the original template files.
+
+- Workfolio: https://bootstrapmade.com/workfolio-bootstrap-portfolio-template/
+- BootstrapMade license: https://bootstrapmade.com/license/
+
+BootstrapMade attribution is retained in the site footer.
+
+## Fork / domain note
+
+The inherited `CNAME` referenced the upstream owner's `anaisurl.com` domain and was removed before publishing Mohamed's portfolio. No upstream-owned domain is used by the current site.
