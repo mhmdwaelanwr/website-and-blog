@@ -12,9 +12,11 @@ Personal portfolio for Mohamed Anwar, a third-year Computer Science student at A
 - B.Sc. Computer Science at Arab Open University / The Open University dual-degree programme
 - Expected graduation: 2028
 
-## Current branch
+## Status
 
-The redesign is being developed on `workfolio-portfolio` so the original `main` branch and fork history stay untouched until the changes are reviewed.
+The Workfolio-inspired redesign was developed on `workfolio-portfolio`, reviewed through PR #1, and merged into `main`. The repository remains a fork of `AnaisUrlichs/website-and-blog`, preserving its original history.
+
+A production deployment has been initiated on Vercel under the project name `mohamed-anwar-portfolio`.
 
 ## Content source
 
@@ -49,4 +51,4 @@ The footer keeps BootstrapMade attribution.
 
 ## Publishing / fork note
 
-This repository is a fork of `AnaisUrlichs/website-and-blog`. The inherited `CNAME` pointed to the upstream owner's domain (`anaisurl.com`), so it is intentionally removed from the portfolio branch. Add a new `CNAME` only when a domain owned by Mohamed is ready to be connected.
+The inherited `CNAME` pointed to the upstream owner's domain (`anaisurl.com`), so it was intentionally removed before publishing the portfolio. Add a new `CNAME` only when a domain owned by Mohamed is ready to be connected.
