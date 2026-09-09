@@ -1,52 +1,245 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anais Urlichs | Placeholder Site</title>
-    <meta
-      name="description"
-      content="Temporary placeholder website for Anais Urlichs while a new blog is being built."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
-    <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mohamed Anwar — Software Engineer focused on developer tools, systems, applied AI, backend services, and practical product engineering.">
+  <title>Mohamed Anwar | Software Engineer Portfolio</title>
 
-    <main class="card">
-      <p class="eyebrow">Temporary website</p>
-      <h1>Anais Urlichs</h1>
-      <p class="intro">
-        This is a temporary placeholder while I move away from Ghost and build a
-        new home for my blog.
-      </p>
-
-      <section class="section">
-        <h2>About</h2>
-        <p>
-          I write about technology, data, and practical lessons from building
-          products. A fresh blog is coming soon.
-        </p>
-      </section>
-
-      <section class="section">
-        <h2>Find me online</h2>
-        <div class="links">
-          <a href="https://github.com/anaisurlichs" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/urlichsanais/" target="_blank" rel="noreferrer">LinkedIn</a>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home"><span class="brand-mark">M</span> Mohamed Anwar</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="btn btn-sm btn-outline-info ms-lg-2 px-3" href="#contact">Contact</a></li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </nav>
+  </header>
 
-      <footer>
-        <p>Placeholder page for anaisurl.com. Full site coming soon.</p>
-      </footer>
-    </main>
-  </body>
+  <main>
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="hero-orb hero-orb-one"></div>
+      <div class="hero-orb hero-orb-two"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="availability-pill mb-4"><span></span> Building. Understanding. Shipping. Improving.</div>
+            <p class="eyebrow mb-3">SOFTWARE ENGINEERING · DEVELOPER TOOLS · SYSTEMS · APPLIED AI</p>
+            <h1 class="display-3 fw-bold mb-4">I build practical software and go <span>deeper than the surface.</span></h1>
+            <p class="hero-copy mb-4">I'm Mohamed Anwar, a third-year Computer Science student at Arab Open University in Egypt, DEPI Front-End Development Trainee, Founder of Elitedom, and independent software developer.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-info btn-lg px-4" href="#portfolio">Explore my work <i class="bi bi-arrow-down-right ms-1"></i></a>
+              <a class="btn btn-outline-light btn-lg px-4" href="https://github.com/mhmdwaelanwr" target="_blank" rel="noreferrer"><i class="bi bi-github me-2"></i>GitHub</a>
+            </div>
+            <div class="hero-meta mt-5 d-flex flex-wrap gap-4">
+              <span><i class="bi bi-geo-alt"></i> Cairo, Egypt</span>
+              <span><i class="bi bi-award"></i> Huawei ICT Silver Medalist</span>
+              <span><i class="bi bi-mortarboard"></i> AOU · Expected 2028</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="profile-card mx-auto">
+              <div class="profile-glow"></div>
+              <img src="https://avatars.githubusercontent.com/u/179792006?v=4" alt="Mohamed Anwar" class="profile-photo">
+              <div class="profile-card-body">
+                <span class="small text-info">CURRENT DIRECTION</span>
+                <h2 class="h4 mt-2 mb-3">Software, systems & applied AI</h2>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">C# / .NET</span>
+                  <span class="tech-pill">Linux</span>
+                  <span class="tech-pill">Docker</span>
+                  <span class="tech-pill">FastAPI</span>
+                  <span class="tech-pill">React</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-block">
+      <div class="container">
+        <div class="section-heading row g-4 align-items-end mb-5">
+          <div class="col-lg-7">
+            <p class="eyebrow">ABOUT</p>
+            <h2>I want to understand problems deeply, then turn them into reliable solutions.</h2>
+          </div>
+          <div class="col-lg-5">
+            <p class="section-lead mb-0">My learning direction combines software engineering, systems thinking, developer tools, backend development, cloud, and applied AI.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="glass-card h-100 p-4 p-md-5">
+              <h3 class="h4 mb-3">Useful, understandable, testable engineering.</h3>
+              <p>I am a third-year Computer Science student at Arab Open University in Egypt, studying through the AOU dual-degree programme with The Open University, UK. Alongside university, I build practical software across developer tools, backend systems, desktop applications, automation, Linux tooling, and applied AI.</p>
+              <p>I like understanding how things work under the surface. When something breaks, I prefer finding the cause instead of stopping at a quick fix.</p>
+              <p class="mb-0">Long term, I want to become an engineer who can connect software, systems, AI, and product thinking — not just write code, but ship reliable solutions with real impact.</p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="row g-4 h-100">
+              <div class="col-6"><div class="metric-card"><strong>Silver</strong><span>Huawei ICT Computing Track</span></div></div>
+              <div class="col-6"><div class="metric-card"><strong>First</strong><span>Academic grade</span></div></div>
+              <div class="col-6"><div class="metric-card"><strong>DEPI</strong><span>Front-End Trainee</span></div></div>
+              <div class="col-6"><div class="metric-card"><strong>2028</strong><span>Expected graduation</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-block section-muted">
+      <div class="container">
+        <div class="section-heading mb-5">
+          <p class="eyebrow">SKILLS & TOOLS</p>
+          <h2>A broad stack, with a systems-first engineering mindset.</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4"><div class="skill-card"><i class="bi bi-code-square"></i><h3>Languages</h3><p>Programming across application, systems, scripting, and web environments.</p><div><span>Python</span><span>C#</span><span>Kotlin</span><span>Java</span><span>Dart</span><span>TypeScript</span><span>JavaScript</span><span>Bash</span><span>PowerShell</span></div></div></div>
+          <div class="col-md-6 col-lg-4"><div class="skill-card"><i class="bi bi-window-stack"></i><h3>Frameworks & Platforms</h3><p>Cross-platform, desktop, mobile, frontend, and backend application development.</p><div><span>.NET 8</span><span>WPF</span><span>Flutter</span><span>Android</span><span>Kotlin Multiplatform</span><span>React</span><span>Node.js</span><span>Express</span><span>FastAPI</span></div></div></div>
+          <div class="col-md-6 col-lg-4"><div class="skill-card"><i class="bi bi-terminal"></i><h3>Systems & Delivery</h3><p>Linux-first workflows, deployment tooling, debugging, packaging, and production-minded delivery.</p><div><span>Linux</span><span>Git</span><span>GitHub Actions</span><span>Docker</span><span>CI/CD</span><span>Nginx</span><span>REST APIs</span></div></div></div>
+          <div class="col-md-6 col-lg-4"><div class="skill-card"><i class="bi bi-database"></i><h3>Backend & Data</h3><p>Backend services, transactional data, local persistence, and service integrations.</p><div><span>FastAPI</span><span>Node.js</span><span>PostgreSQL</span><span>SQLite</span><span>Redis</span></div></div></div>
+          <div class="col-md-6 col-lg-4"><div class="skill-card"><i class="bi bi-cpu"></i><h3>Applied AI</h3><p>API integration, computer-vision workflows, multi-provider model integration, automation, and AI-assisted product tooling.</p><div><span>Vision APIs</span><span>Automation</span><span>Model APIs</span><span>Fallback Systems</span></div></div></div>
+          <div class="col-md-6 col-lg-4"><div class="skill-card"><i class="bi bi-layout-text-window-reverse"></i><h3>Front-End</h3><p>Responsive interfaces and practical web-development workflows.</p><div><span>HTML5</span><span>CSS</span><span>JavaScript</span><span>Tailwind CSS</span><span>Bootstrap</span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-block">
+      <div class="container">
+        <div class="section-heading mb-5">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>Learning through real responsibility and real projects.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jul 2026 — Present</div>
+            <div class="timeline-content"><h3>Front-End Development Trainee · DEPI</h3><p>Hands-on training in JavaScript, Git, HTML5, CSS, Tailwind CSS, responsive web development, and practical front-end workflows in Cairo, Egypt.</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jun 2026 — Present</div>
+            <div class="timeline-content"><h3>Founder & Owner · Elitedom</h3><p>Founded an early-stage hardware, gaming, and technology commerce brand, leading product direction, e-commerce operations, business development, and the supporting technology platform.</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Nov 2024 — Present</div>
+            <div class="timeline-content"><h3>Independent Software Developer</h3><p>Building practical software across developer tools, backend systems, desktop applications, automation, applied AI, Linux tooling, systems diagnostics, CI/CD, and cross-platform development.</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 — Present</div>
+            <div class="timeline-content"><h3>Technical Student Communities</h3><p>Web & App Team Member at Microsoft Student Clubs — AOU, former Technical Committee Member at Microsoft Student Club — NMU, former Huawei Student Club — AOU Web Team Member, and former Microsoft Student Clubs — AOU Programming Team Member.</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Sep 2024 — Present</div>
+            <div class="timeline-content"><h3>B.Sc. Computer Science · Arab Open University</h3><p>Third-year student in the AOU dual-degree programme with The Open University, UK. Grade: First. Expected graduation: 2028.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section-block section-muted">
+      <div class="container">
+        <div class="section-heading row g-4 align-items-end mb-5">
+          <div class="col-lg-7"><p class="eyebrow">SELECTED WORK</p><h2>Projects built around real technical problems.</h2></div>
+          <div class="col-lg-5 text-lg-end"><a href="https://github.com/mhmdwaelanwr?tab=repositories" target="_blank" rel="noreferrer" class="text-link">View all repositories <i class="bi bi-arrow-up-right"></i></a></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="project-card project-a">
+              <div class="project-top"><span>Python · Desktop GUI + CLI · Applied AI · SQLite · CI/CD</span><i class="bi bi-stars"></i></div>
+              <div class="project-visual"><div class="mesh-grid"></div><span>AI PRODUCT<br>PHOTO SORTER</span></div>
+              <div class="project-copy"><h3>AI Product Photo Sorter / CatalogMesh</h3><p>A multi-provider vision application that organizes chronological product-shoot photos into a reviewable catalog, with provider fallback, API-key rotation, crash-safe resume, multilingual UI, cross-platform releases, and PyPI distribution.</p><a href="https://github.com/mhmdwaelanwr/CatalogMesh" target="_blank" rel="noreferrer">Open repository <i class="bi bi-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="project-card project-b">
+              <div class="project-top"><span>C# · .NET 8 · WPF · HID · GitHub Actions</span><i class="bi bi-controller"></i></div>
+              <div class="project-visual"><div class="controller-shape">+</div><span>PAD<br>SCOPE</span></div>
+              <div class="project-copy"><h3>PadScope</h3><p>A Windows game-controller diagnostics and compatibility toolkit with device discovery, live input/report-health diagnostics, capture/replay, controlled output testing, virtual-controller routing, remapping profiles, and report export.</p><a href="https://github.com/mhmdwaelanwr/PadScope" target="_blank" rel="noreferrer">Open repository <i class="bi bi-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="project-card project-d">
+              <div class="project-top"><span>React · TypeScript · FastAPI · PostgreSQL · Redis/Celery · Docker</span><i class="bi bi-bag"></i></div>
+              <div class="project-visual"><div class="commerce-lines"></div><span>ELITEDOM<br>COMMERCE</span></div>
+              <div class="project-copy"><h3>Elitedom Commerce Platform</h3><p>A production-oriented commerce platform with storefront/admin surfaces, backend APIs, transactional data, background processing, ERP integration, security controls, observability hooks, and release gates.</p><a href="https://github.com/mhmdwaelanwr/elitedom-commerce-platform" target="_blank" rel="noreferrer">Open repository <i class="bi bi-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="project-card project-c">
+              <div class="project-top"><span>Python · Bash · Nautilus · Zenity · Linux</span><i class="bi bi-file-earmark-code"></i></div>
+              <div class="project-visual"><div class="prism"></div><span>NAUTILUS<br>CODE NEW FILE</span></div>
+              <div class="project-copy"><h3>Nautilus Code New File</h3><p>A GNOME Files developer extension providing categorized code-file templates, safe filename validation, installer/uninstaller tooling, linting, and automated tests.</p><a href="https://github.com/mhmdwaelanwr/nautilus-code-new-file" target="_blank" rel="noreferrer">Open repository <i class="bi bi-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="project-card project-b">
+              <div class="project-top"><span>Linux · ACPI/EC · Kernel · NVIDIA · Diagnostics</span><i class="bi bi-laptop"></i></div>
+              <div class="project-visual"><div class="mesh-grid"></div><span>LINUX<br>SUSPEND</span></div>
+              <div class="project-copy"><h3>ASUS FX507VV Suspend/Resume Investigation</h3><p>A reproducible Linux suspend/resume investigation isolating unreliable deep/S3 behavior from working s2idle, backed by controlled tests, evidence logs, a practical workaround, and upstream-ready documentation.</p><a href="https://github.com/mhmdwaelanwr/asus-fx507vv-linux-suspend-investigation" target="_blank" rel="noreferrer">Open repository <i class="bi bi-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="project-card project-c">
+              <div class="project-top"><span>Kotlin/Java · Android · Binder · Native Runtime</span><i class="bi bi-boxes"></i></div>
+              <div class="project-visual"><div class="prism"></div><span>PRISM<br>SPACE</span></div>
+              <div class="project-copy"><h3>PrismSpace — Android Virtualization Research</h3><p>Experimental Android virtualization and multi-instance runtime research involving framework interception, service proxies, native I/O policy enforcement, capability reporting, and ARM native builds.</p><a href="https://github.com/mhmdwaelanwr/PrismSpace" target="_blank" rel="noreferrer">Open repository <i class="bi bi-arrow-up-right"></i></a></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-block contact-section">
+      <div class="container">
+        <div class="contact-panel text-center">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Interested in software, systems, AI, or product engineering?</h2>
+          <p>I'm interested in internships, junior engineering opportunities, technical collaborations, and ambitious projects where I can keep learning while shipping useful work.</p>
+          <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+            <a class="btn btn-info btn-lg" href="mailto:mhmdwaelanwr@gmail.com"><i class="bi bi-envelope me-2"></i>Email me</a>
+            <a class="btn btn-outline-light btn-lg" href="https://www.linkedin.com/in/mhmdwaelanwr/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+            <a class="btn btn-outline-light btn-lg" href="https://github.com/mhmdwaelanwr" target="_blank" rel="noreferrer"><i class="bi bi-github me-2"></i>GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0">© <span id="year"></span> Mohamed Anwar. All rights reserved.</p>
+      <p class="mb-0 footer-credit">Design direction inspired by Workfolio · Designed by <a href="https://bootstrapmade.com/" target="_blank" rel="noreferrer">BootstrapMade</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
 </html>
