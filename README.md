@@ -18,7 +18,7 @@ The redesign is being developed on `workfolio-portfolio` so the original `main` 
 
 ## Content source
 
-Portfolio content is personalized from Mohamed's 2026 professional CV and personal presentation, including experience, skills, project descriptions, academic background, engineering direction, and long-term goals.
+Portfolio content is personalized from Mohamed's 2026 professional CV and personal presentation, including experience, skills, project descriptions, academic background, engineering direction, and long-term goals. The public site intentionally exposes professional email/social links but does not publish the phone numbers contained in the CV.
 
 ## Design direction
 
