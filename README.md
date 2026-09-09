@@ -16,6 +16,10 @@ Personal portfolio for Mohamed Anwar, a third-year Computer Science student at A
 
 The redesign is being developed on `workfolio-portfolio` so the original `main` branch and fork history stay untouched until the changes are reviewed.
 
+## Content source
+
+Portfolio content is personalized from Mohamed's 2026 professional CV and personal presentation, including experience, skills, project descriptions, academic background, engineering direction, and long-term goals.
+
 ## Design direction
 
 The site uses a custom Bootstrap 5 implementation inspired by the visual direction of BootstrapMade's Workfolio template rather than redistributing the original template files.
