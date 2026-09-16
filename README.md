@@ -55,15 +55,12 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## Design and attribution
+## Ownership
 
-The implementation is custom and takes visual direction from BootstrapMade's Workfolio template rather than redistributing the original template files.
+Copyright © 2026 **Mohamed Anwar**. All rights reserved.
 
-- Workfolio: https://bootstrapmade.com/workfolio-bootstrap-portfolio-template/
-- BootstrapMade license: https://bootstrapmade.com/license/
+The original project-specific source code, written content, visual assets, design implementation, and documentation in this repository are proprietary to Mohamed Anwar unless explicitly stated otherwise.
 
-BootstrapMade attribution is retained in the site footer.
+Third-party libraries and services used by the project remain under their own licenses and terms. This includes Bootstrap, Bootstrap Icons, Google Fonts, and other externally loaded resources.
 
-## Domain note
-
-The upstream repository previously referenced `anaisurl.com` through a `CNAME`. That upstream-owned domain is intentionally not used by this portfolio.
+See [`LICENSE`](LICENSE) for the full copyright notice.
