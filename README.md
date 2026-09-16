@@ -1,51 +1,26 @@
-# Mohamed Anwar — Software Engineering Portfolio
+# Placeholder website for anaisurl.com
 
-Personal engineering portfolio focused on **developer tools, systems, backend engineering, and applied AI**.
+This repository contains a simple static placeholder page designed for GitHub Pages.
 
-**Live site:** https://mohamed-anwar-portfolio-mhmdwaelanwrs-projects.vercel.app
+## Files
 
-## Current state
+- `index.html`: main placeholder content
+- `styles.css`: visual style and responsive layout
+- `CNAME`: custom domain for GitHub Pages (`anaisurl.com`)
 
-The portfolio is published from `main` and deployed to Vercel. The original Workfolio-inspired iteration was followed by a second engineering-focused redesign that tightened the information hierarchy for technical applications and recruiter review.
+## Publish on GitHub Pages
 
-The repository remains a fork of `AnaisUrlichs/website-and-blog`, preserving the original GitHub fork relationship and history.
+1. Push this repository to GitHub.
+2. Open repository settings on GitHub.
+3. Go to Pages.
+4. Under Build and deployment:
+   - Source: Deploy from a branch
+   - Branch: `main` (or your default branch)
+   - Folder: `/ (root)`
+5. Save and wait for deployment.
 
-## What the site emphasizes
+GitHub Pages will issue HTTPS certificates automatically once DNS is configured correctly.
 
-- Clear software-engineering positioning instead of a generic template portfolio.
-- CatalogMesh as the primary applied-AI / automation case study.
-- PadScope, PrismSpace, Linux systems investigation, Nautilus Code New File, and Elitedom Commerce Platform as selected engineering work.
-- Evidence-first debugging, human review around AI, operational completeness, and root-cause investigation.
-- Easy access to résumé, GitHub, LinkedIn, and email without publishing private phone numbers.
-- Responsive mobile layout, accessible navigation, social metadata, structured person data, and a custom favicon.
+## Update social links
 
-## Stack
-
-- HTML5
-- CSS3
-- Bootstrap 5
-- Bootstrap Icons
-- Vanilla JavaScript
-- Vercel static deployment
-
-## Selected projects
-
-- [CatalogMesh](https://github.com/mhmdwaelanwr/CatalogMesh)
-- [PadScope](https://github.com/mhmdwaelanwr/PadScope)
-- [Elitedom Commerce Platform](https://github.com/mhmdwaelanwr/elitedom-commerce-platform)
-- [Nautilus Code New File](https://github.com/mhmdwaelanwr/nautilus-code-new-file)
-- [ASUS FX507VV Linux Suspend/Resume Investigation](https://github.com/mhmdwaelanwr/asus-fx507vv-linux-suspend-investigation)
-- [PrismSpace](https://github.com/mhmdwaelanwr/PrismSpace)
-
-## Design / license note
-
-The implementation is custom and takes visual direction from BootstrapMade's Workfolio template rather than redistributing the original template files.
-
-- Workfolio: https://bootstrapmade.com/workfolio-bootstrap-portfolio-template/
-- BootstrapMade license: https://bootstrapmade.com/license/
-
-BootstrapMade attribution is retained in the site footer.
-
-## Fork / domain note
-
-The inherited `CNAME` referenced the upstream owner's `anaisurl.com` domain and was removed before publishing Mohamed's portfolio. No upstream-owned domain is used by the current site.
+Edit the link URLs in `index.html` in the "Find me online" section.
