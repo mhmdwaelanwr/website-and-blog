@@ -1,25 +1,26 @@
 # Mohamed Anwar — Software Engineering Portfolio
 
-Personal engineering portfolio focused on **developer tools, systems, backend engineering, and applied AI**.
+A personal engineering portfolio built around **real projects, practical systems work, and applied AI** rather than a generic profile page.
 
 **Live site:** https://mohamed-anwar-portfolio-mhmdwaelanwrs-projects.vercel.app
 
-## Current state
+## Overview
 
-The portfolio is published from `main` and deployed to Vercel. The original Workfolio-inspired iteration was followed by a second engineering-focused redesign that tightened the information hierarchy for technical applications and recruiter review.
+The site presents selected work across developer tools, backend engineering, desktop software, Linux, automation, commerce systems, and applied AI. The focus is on showing how the projects are built, what constraints they solve, and how engineering decisions translate into usable products.
 
-The repository remains a fork of `AnaisUrlichs/website-and-blog`, preserving the original GitHub fork relationship and history.
+The current version combines the strongest parts of the earlier portfolio iterations into one cleaner engineering-focused experience.
 
-## What the site emphasizes
+## Highlights
 
-- Clear software-engineering positioning instead of a generic template portfolio.
-- CatalogMesh as the primary applied-AI / automation case study.
-- PadScope, PrismSpace, Linux systems investigation, Nautilus Code New File, and Elitedom Commerce Platform as selected engineering work.
-- Evidence-first debugging, human review around AI, operational completeness, and root-cause investigation.
-- Easy access to résumé, GitHub, LinkedIn, and email without publishing private phone numbers.
-- Responsive mobile layout, accessible navigation, social metadata, structured person data, and a custom favicon.
+- Featured CatalogMesh case study with cloud/local AI workflows and human review boundaries.
+- Selected work including PadScope, PrismSpace, Linux systems investigation, Nautilus Code New File, and the Elitedom Commerce Platform.
+- Dedicated engineering principles and capabilities sections.
+- Clear résumé, GitHub, LinkedIn, email, and project links.
+- Responsive layout for desktop and mobile.
+- Accessible navigation, reduced-motion support, semantic structure, social metadata, structured person data, and a custom favicon.
+- Lightweight static deployment with no application server required.
 
-## Stack
+## Core stack
 
 - HTML5
 - CSS3
@@ -27,6 +28,13 @@ The repository remains a fork of `AnaisUrlichs/website-and-blog`, preserving the
 - Bootstrap Icons
 - Vanilla JavaScript
 - Vercel static deployment
+
+## Engineering areas
+
+- Python, C#/.NET, Kotlin/Java, TypeScript/JavaScript, Dart, Bash, and PowerShell
+- Linux, Docker, GitHub Actions, CI/CD, packaging, and diagnostics
+- FastAPI, Node.js, PostgreSQL, SQLite, Redis, and REST APIs
+- Vision/model APIs, local inference, automation, provider fallback, and human-in-the-loop workflows
 
 ## Selected projects
 
@@ -37,7 +45,17 @@ The repository remains a fork of `AnaisUrlichs/website-and-blog`, preserving the
 - [ASUS FX507VV Linux Suspend/Resume Investigation](https://github.com/mhmdwaelanwr/asus-fx507vv-linux-suspend-investigation)
 - [PrismSpace](https://github.com/mhmdwaelanwr/PrismSpace)
 
-## Design / license note
+## Local preview
+
+The project is fully static. Clone the repository and open `index.html`, or run a small local server:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+## Design and attribution
 
 The implementation is custom and takes visual direction from BootstrapMade's Workfolio template rather than redistributing the original template files.
 
@@ -46,6 +64,6 @@ The implementation is custom and takes visual direction from BootstrapMade's Wor
 
 BootstrapMade attribution is retained in the site footer.
 
-## Fork / domain note
+## Domain note
 
-The inherited `CNAME` referenced the upstream owner's `anaisurl.com` domain and was removed before publishing Mohamed's portfolio. No upstream-owned domain is used by the current site.
+The upstream repository previously referenced `anaisurl.com` through a `CNAME`. That upstream-owned domain is intentionally not used by this portfolio.
