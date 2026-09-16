@@ -1,3 +1,9 @@
+/*
+ * Copyright © 2026 Mohamed Anwar. All rights reserved.
+ * Original project-specific JavaScript in this repository is proprietary to Mohamed Anwar.
+ * Third-party libraries retain their respective licenses.
+ */
+
 const header = document.querySelector('.site-header');
 
 function addCapabilitiesSection() {
